@@ -12,7 +12,7 @@ println(x)
 }
 
     fun arrayInt(numbers:Array<Int>) :Int{
-    var product  = 0
+    var product  = 20
         numbers.forEach { number ->
 
              product *= number
