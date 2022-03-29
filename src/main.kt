@@ -3,7 +3,7 @@ fun main(){
     println(y)
 
 
-     var x=mixed(arrayOf(12.7F,12.77,67.8F,12.888,"hey",1))
+     var x=mixed(arrayOf(12.7F,23.77,67.8F,12.888,"hey",1))
 println(x)
     var vowels=arrofcha(arrayOf('s','c','k','o','y','a','p','i'))
     println(vowels)
@@ -12,7 +12,7 @@ println(x)
 }
 
     fun arrayInt(numbers:Array<Int>) :Int{
-    var product  = 1
+    var product  = 0
         numbers.forEach { number ->
 
              product *= number
